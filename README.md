@@ -2,7 +2,7 @@ Projeto Programacao WEB!!
 
  ---
 ## Avaliação em pares
-### 07 / 09 / 2026
+### 02 / 09 / 2026
  ---
  1. **Semântica & Acessibilidade:**
 	 - Corrigir `lang="en"` para `lang="pt-BR"`.
