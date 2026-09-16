@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+/* Cabeçalho Padrão */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0;
+    
+}
+
+.header img {
+    margin: 1.5rem;
+}
+
+/* Barra de Navegação */
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    max-width: 45rem;
+    margin: 0 auto;
+
+    padding: 0.8rem 1.5rem;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hover dos itens da barra de navegação */
+.nav ul li a {
+    display: inline-block;
+    text-decoration: none; 
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+    opacity: 0.8; 
+}
+.nav ul li a:hover {
+    transform: scale(1.1); 
+    opacity: 1;
+}
+.nav ul li a img {
+    vertical-align: middle; 
+}
+
+
+/* Rodapé Padrão */
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 26rem;
+    max-width: 90%;
+    margin: 0 auto 0.8rem auto;
+    border: none;
+    border-top: 0.1rem solid white;
+}
