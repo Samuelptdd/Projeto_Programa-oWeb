@@ -73,7 +73,325 @@ main {
     flex-direction: column;
     width: 26rem;
     max-width: 90%;
-    margin: 0 auto 0.8rem auto;
+    margin: 4rem auto 0.8rem auto;
     border: none;
     border-top: 0.1rem solid white;
+}
+
+/* **** Estilização dos componentes de cada pagina **** */
+
+/* Pagina Home */
+
+#home_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+/* bloco "church" */
+#church_header {
+    color: white;
+    font-size: 1.6rem;
+    font-family: 'Georgia', Serif;
+}
+#Church_content {
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+
+    align-items: center;
+    margin-top: 1rem;
+    width: 90%;
+    max-width: 70rem;
+
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+}
+#Church_content p {
+    color: white;
+    font-size: 0.9rem;
+    font-family: 'Georgia', Serif;
+    text-align: justify;
+    margin: 0.8rem;
+}
+#Church_content img {
+    margin: 0.8rem;
+    border-radius: 0.2rem;
+    width: 400px;
+    height: 300px;
+}
+
+/* bloco "president" */
+#president_header {
+    color: white;
+    font-size: 1.6rem;
+    font-family: 'Georgia', Serif;
+
+    margin-top: 2rem;
+}
+#president_content {
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+
+    align-items: center;
+    margin-top: 1rem;
+    width: 90%;
+    max-width: 70rem;
+
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+}
+#president_content p {
+    color: white;
+    font-size: 0.9rem;
+    font-family: 'Georgia', Serif;
+    text-align: justify;
+    margin: 0.8rem;
+}
+#president_content img {
+    margin: 0.8rem;
+    border-radius: 0.2rem;
+    width: 400px;
+    height: 300px;
+}
+
+/* bloco "event" */
+#event_header {
+    color: white;
+    font-size: 1.6rem;
+    font-family: 'Georgia', Serif;
+
+    margin-top: 2rem;
+}
+#event_content {
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+
+    align-items: center;
+    margin-top: 1rem;
+    width: 90%;
+    max-width: 70rem;
+
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+}
+#event_content p {
+    color: white;
+    font-size: 0.9rem;
+    font-family: 'Georgia', Serif;
+    text-align: justify;
+    margin: 0.8rem;
+}
+#event_content img {
+    margin: 0.8rem;
+    border-radius: 0.2rem;
+    width: 400px;
+    height: 300px;
+}
+
+/* Pagina Music */
+
+#music_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+/* Estilização do titulo da pagina */
+#music_section h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.3rem;
+    font-family: 'Georgia', Serif;
+}
+/* Bloco "Images" */
+#music_gallery_images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 70rem;
+}
+/* Estilização do Container de Audio */
+#audio_container {
+    align-items: center;
+    margin-top: 2.5rem;
+    filter: invert(0.98) hue-rotate(180deg) brightness(1.2) drop-shadow(0 0 0.2rem white);
+
+    width: 100%;
+    max-width: 20rem;
+}
+
+/* Estilização das capas de musica */
+.music_image {
+    border-radius: 0.2rem;
+    width: 250px;
+    height: 250px;
+}
+#music_2_art {
+    width: 400px;
+    height: 400px;
+}
+
+/* Estilização dos Botões de interação musical */
+.music_button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.music_button_image {
+    width: 18px;
+    height: 18px;
+}
+.music_button:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+}
+
+/* Pagina Register */
+
+#register_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+
+#register_header {
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Georgia', Serif;
+}
+
+/* Estilização do Bloco do Formulario */
+#register_form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 20rem;
+
+    border: 0.1rem solid rgba(255, 255, 255, 0.3);
+    border-radius: 0.5rem;
+    background-color: rgba(93, 200, 250, 0.5);
+}
+
+/* Estilização do formulario */
+#form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.8rem;
+    width: 100%;
+}
+.form_input {
+    width: 80%;
+    padding: 0.5rem;
+    margin: 1;
+    border: 0.1rem solid white;
+    border-radius: 0.3rem;
+    background-color: black;
+    color: white;
+}
+.form_button {
+    width: 80%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: 0.1rem solid white;
+    border-radius: 0.3rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Pagina Gallery */
+
+#gallery_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+/* Estilização do titulo da pagina */
+#gallery_header {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.3rem;
+    font-family: 'Georgia', Serif;
+}
+
+/* Bloco "Container" */
+#gallery_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    margin-top: 3rem;
+    width: 100%;
+    max-width: 70rem;
+}
+
+/* Estilização das imagens */
+.gallery_image {
+    border-radius: 0.2rem;
+    width: 350px;
+    height: 350px;
+}
+
+/* Estilização dos Botões de interação de imagens */
+.gallery_button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.gallery_button_image {
+    width: 18px;
+    height: 18px;
+}
+.gallery_button:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+}
+
+/* contacts page */
+
+#contacts_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#contacts_header {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.3rem;
+    font-family: 'Georgia', Serif;
+}
+
+#contacts_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 20rem;
+}
+
+.contacts_info {
+    color: white;
+    font-size: 0.9rem;
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    margin: 0.8rem;
 }

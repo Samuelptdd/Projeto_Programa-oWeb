@@ -34,19 +34,17 @@
     <main>
 
         <!-- Conteudo da Pagina -->
-        <section id="register_section" align="center">
-            <h1 id="register_header">
-                <font color="gray" size="5">Register!</font>
-            </h1>
-            <div id=""register_form_container">
+        <section id="register_section">
+            <h1 id="register_header">Register!</h1>
+            <div id="register_form_container">
                 <form id="form_container" action="../../src/register.php" method="POST"> <!-- arquivo .php ficticio-->
-                    <input id="name_input" type="text" name="name" placeholder="Name" required>
+                    <input id="name_input" class="form_input" type="text" name="name" placeholder="Name" required>
                     <br>
-                    <input id="email_input" type="email" name="email" placeholder="Email" required>
+                    <input id="email_input" class="form_input" type="email" name="email" placeholder="Email" required>
                     <br>
-                    <input id="cpf_input" type="text" name="cpf" placeholder="CPF" required>
+                    <input id="cpf_input" class="form_input" type="text" name="cpf" placeholder="CPF" required>
                     <br>
-                    <button id="register_button" type="submit">Register</button>
+                    <button id="register_button" class="form_button" type="submit">Submit</button>
                 </form>
             </div>
         </section>
